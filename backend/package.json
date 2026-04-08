@@ -1,0 +1,17 @@
+{
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "imapflow": "^1.0.162",
+    "node-pop3": "*",
+    "nodemailer": "^6.9.13",
+    "pg": "^8.11.0",
+    "ws": "^8.17.0"
+  }
+}
